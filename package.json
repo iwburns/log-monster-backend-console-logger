@@ -1,6 +1,6 @@
 {
   "name": "log-monster-backend-console-logger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "main": "dist/log-monster-backend-console-logger.umd.js",
@@ -113,5 +113,8 @@
     "tslint-config-standard": "^8.0.1",
     "typedoc": "^0.19.2",
     "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "log-monster-types": "file:../log-monster-types"
   }
 }
